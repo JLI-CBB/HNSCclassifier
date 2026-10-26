@@ -1,5 +1,5 @@
 Package: HNSCclassifier
-Title: A pathway‑centric classification strategy for robust and platform‑independent molecular subtyping of head and neck squamous cell carcinoma
+Title: Pathway-centric classification for robust and platform-independent molecular subtyping of head and neck squamous cell carcinoma
 Version: 0.1.0
 Authors@R: 
     person("Jiang", "Li", email="ronlee12355@outlook.com", role = c("aut", "cre"))

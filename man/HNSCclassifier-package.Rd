@@ -4,7 +4,7 @@
 \name{HNSCclassifier-package}
 \alias{HNSCclassifier}
 \alias{HNSCclassifier-package}
-\title{HNSCclassifier: A pathway‑centric classification strategy for robust and platform‑independent molecular subtyping of head and neck squamous cell carcinoma}
+\title{HNSCclassifier: Pathway-centric classification for robust and platform-independent molecular subtyping of head and neck squamous cell carcinoma}
 \description{
 This package provides a robust classifier to assign head and neck squamous cell carcinoma (HNSCC) samples to the established TCGA molecular subtypes (Atypical, Basal, Classical, Mesenchymal). It implements a pathway-level normalization strategy based on single-sample gene set enrichment (ssGSEA) and a pre-trained random forest model. The package includes a command-line function for batch prediction and an interactive Shiny web interface for users without programming experience.
 }
@@ -12,7 +12,7 @@ This package provides a robust classifier to assign head and neck squamous cell 
 
 \strong{HNSCclassifier} provides a ready-to-use molecular subtyping
 framework for head and neck squamous cell carcinoma (HNSC).  It
-assigns tumour samples to one of four TCGA-defined subtypes —
+assigns tumor samples to one of four TCGA-defined subtypes —
 \strong{Atypical}, \strong{Basal}, \strong{Classical}, and
 \strong{Mesenchymal} — using a pipeline designed for cross-platform
 portability.
@@ -45,7 +45,7 @@ Shiny web application.}
 posterior subtype probabilities, with low-confidence flagging.}
 \item{\code{\link{plot_subtype_heatmap}}}{Annotated heatmap of
 subtype-driver gene expression.}
-\item{\code{\link{plot_confusion_matrix}}}{Heatmap visualisation of
+\item{\code{\link{plot_confusion_matrix}}}{Heatmap visualization of
 a \code{caret::confusionMatrix} for assessing classification
 performance against reference labels.}
 }
@@ -64,7 +64,7 @@ IDs for demonstrating the \code{idType} argument.}
 \section{Input requirements}{
 
 Expression data should be \strong{non-negative} numeric values (e.g. TPM,
-FPKM, or normalised counts) with genes in rows and samples in
+FPKM, or normalized counts) with genes in rows and samples in
 columns.  The pipeline automatically detects whether a log2
 transformation is needed and applies \code{log2(x + 1)} if so.
 Gene identifiers can be SYMBOL (default), ENSEMBL, ENTREZID, or

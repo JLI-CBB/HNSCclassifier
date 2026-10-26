@@ -3,7 +3,7 @@
 #' @section Overview:
 #' **HNSCclassifier** provides a ready-to-use molecular subtyping
 #' framework for head and neck squamous cell carcinoma (HNSC).  It
-#' assigns tumour samples to one of four TCGA-defined subtypes —
+#' assigns tumor samples to one of four TCGA-defined subtypes —
 #' **Atypical**, **Basal**, **Classical**, and
 #' **Mesenchymal** — using a pipeline designed for cross-platform
 #' portability.
@@ -32,7 +32,7 @@
 #'     posterior subtype probabilities, with low-confidence flagging.}
 #'   \item{\code{\link{plot_subtype_heatmap}}}{Annotated heatmap of
 #'     subtype-driver gene expression.}
-#'   \item{\code{\link{plot_confusion_matrix}}}{Heatmap visualisation of
+#'   \item{\code{\link{plot_confusion_matrix}}}{Heatmap visualization of
 #'     a \code{caret::confusionMatrix} for assessing classification
 #'     performance against reference labels.}
 #' }
@@ -47,7 +47,7 @@
 #'
 #' @section Input requirements:
 #' Expression data should be **non-negative** numeric values (e.g. TPM,
-#' FPKM, or normalised counts) with genes in rows and samples in
+#' FPKM, or normalized counts) with genes in rows and samples in
 #' columns.  The pipeline automatically detects whether a log2
 #' transformation is needed and applies \code{log2(x + 1)} if so.
 #' Gene identifiers can be SYMBOL (default), ENSEMBL, ENTREZID, or

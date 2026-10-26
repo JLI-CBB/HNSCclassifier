@@ -1,5 +1,5 @@
 ---
-title: "A pathway‑centric classification strategy for robust and platform‑independent molecular subtyping of head and neck squamous cell carcinoma"
+title: "Pathway-centric classification for robust and platform-independent molecular subtyping of head and neck squamous cell carcinoma"
 author: "Jiang Li"
 output: rmarkdown::html_vignette
 keywords: "HNSC, classification, TCGA, ssGSEA, R package"
